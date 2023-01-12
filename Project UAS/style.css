@@ -1,0 +1,244 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.atas {
+    display: flex;
+    align-items: center;
+}
+nav {
+    background-color: lightskyblue;
+
+}
+.bekgrond {
+    background-image: url(https://i.pinimg.com/736x/14/95/07/1495071a0cbd21a48f9bac13ac17ab6a.jpg);
+    background-size: cover;
+}
+.bekgrond2 {
+    background-image: url(https://w0.peakpx.com/wallpaper/148/476/HD-wallpaper-anime-girl-cat-night-city.jpg);
+    background-size: cover;
+
+}  
+.bekgrond3 {
+    background-image: url(https://wallpapercave.com/wp/wp2772057.jpg);
+    background-size: cover;
+}
+.walpaper1 {
+    background-image: url(https://wallpaperaccess.com/full/2840976.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.bawah {
+    background-color: rgb(9, 39, 49);
+    width: 100%;
+    height: 50px;
+}
+.navbar {
+    display: flex;
+    position: absolute !important;
+    right: 30px;
+    gap: 20px;
+    flex-wrap: unset !important;
+}
+.atas h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.fa-bars,
+.fa-user  {
+    font-size: 25px;
+    /* color: black; */
+}
+.logo {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin: 15px 15px;
+}
+h1 {
+    color: black;
+    margin: 15px 15px;
+
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    transition: 0.3s;
+    margin: 15px 15px;
+}
+ul li a:hover {
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 10px;
+}
+.title {
+    position: left;
+    top: 40%;
+    left: 30px;
+    transform: translate(-50% -50%);
+}
+.title h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 70px;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.36);
+    /* background: transparent; */
+}
+.anime-info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.anime-eps {
+    font-size: 25px;
+}
+.anime-rating {
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(1, 5, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.follow {
+    display: flex;
+}
+.follow a{
+    width: auto;
+    height: auto;
+    font-size: 50px;
+
+
+}
+
+.folowus {
+    font-size: 30px;
+    color: white;
+}
+.id {
+    font-size: 20px;
+    color: aliceblue;
+}
+label{
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+#forgot-password{
+    color: lightskyblue;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+
+}
+#card{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0,0,0,.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+
+}
+#card-content{
+    padding: 12px 44px;
+}
+#card-title{
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+#signup{
+    color: skyblue;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+
+}
+#submit-btn{
+    background: -webkit-linear-gradient(right,lightblue,skyblue);
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0px 1px 8px #ffff;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway Semibold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+
+}
+#submit-btn:hover{
+    box-shadow: 0px 1px 18px #ffff;
+
+}
+.form{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border{
+    height: 1px;
+    width: 100%;
+    background: -webkit-linear-gradient(right,lightblue,skyblue);
+}
+.form-content{
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+
+}
+.underline-title{
+    background: -webkit-linear-gradient(right,skyblue,lightblue);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}
+.saranawal{
+    color: aliceblue;
+}
+.sarantengah{
+    color: aliceblue;
+}
+.saranakhir{
+    color: aliceblue;
+}
